@@ -17,8 +17,8 @@ services:
     container_name: it-support-backend
     environment:
       SPRING_DATASOURCE_URL: jdbc:oracle:thin:@oracle-db:1521/orcl
-      SPRING_DATASOURCE_USERNAME: sys
-      SPRING_DATASOURCE_PASSWORD: sys200107
+      SPRING_DATASOURCE_USERNAME: xxx
+      SPRING_DATASOURCE_PASSWORD: xxxxxxxxx
       SPRING_DATASOURCE_DRIVER_CLASS_NAME: oracle.jdbc.OracleDriver
       SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.OracleDialect
     ports:
